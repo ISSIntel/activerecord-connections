@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = "activerecord-connections"
-  s.version     = "0.0.5"
+  s.version     = "0.0.6"
   s.authors     = ["Gabriel Sobrinho"]
   s.email       = ["gabriel.sobrinho@gmail.com"]
   s.homepage    = "https://github.com/nohupbrasil/activerecord-connections"
@@ -12,8 +12,8 @@ Gem::Specification.new do |s|
   s.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
   s.require_paths = ["lib"]
 
-  s.add_dependency 'activesupport', '>= 3.0'
-  s.add_dependency 'activerecord', '>= 3.0'
+  s.add_dependency 'activesupport', '>= 5.0'
+  s.add_dependency 'activerecord', '>= 5.0'
 
   s.add_development_dependency 'rake', '>= 0.8.7'
   s.add_development_dependency 'rspec', '>= 2.8.0'
